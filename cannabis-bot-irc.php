@@ -155,7 +155,7 @@ $acc="Avez vous déjà consommé du cannabis ?";
          }
          
        if (strstr($data,"plante")) {
-+            fputs($socket, "PRIVMSG ".$ex[2]." :est un genre botanique qui rassemble des plantes annuelles de la famille des Cannabaceae ... \r\n");
+            fputs($socket, "PRIVMSG ".$ex[2]." :est un genre botanique qui rassemble des plantes annuelles de la famille des Cannabaceae ... \r\n");
          }
          
        if (strstr($data,"THC")) {
