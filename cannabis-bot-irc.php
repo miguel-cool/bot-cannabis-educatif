@@ -154,6 +154,10 @@ $acc="Avez vous déjà consommé du cannabis ?";
              fputs($socket, "PRIVMSG ".$ex[2]." :Il aime ... Il adore ... !\r\n");
          }
          
+       if (strstr($data,"plante")) {
++            fputs($socket, "PRIVMSG ".$ex[2]." :est un genre botanique qui rassemble des plantes annuelles de la famille des Cannabaceae ... \r\n");
+         }
+         
        if (strstr($data,"THC")) {
              fputs($socket, "PRIVMSG ".$ex[2]." :En réalité, si le THC est la molécule majoritaire dans la plante, elle n'est que l'un des 60 cannabinoïdes que contiennent les têtes de marijuana.\r\n");
          }
