@@ -52,7 +52,7 @@ $acc="Avez vous déjà consommé du cannabis ?";
          }
 		 
 		 if (strstr($data,"putain")) {
-             fputs($socket, "PRIVMSG ".$ex[2]." :Putain : Exprime la surprise, le mécontentement ou l'indignation. Voir aussi pute / prostituée.\r\n");
+             fputs($socket, "PRIVMSG ".$ex[2]." :Putain : Exprime la surprise, le mécontentement ou l'indignation.\r\n");
          }
 		 
 		 if (strstr($data,"Sucette au cannabis")) {
@@ -71,8 +71,8 @@ $acc="Avez vous déjà consommé du cannabis ?";
              fputs($socket, "PRIVMSG ".$ex[2]." :L'alcool ne résolue pas les problèmes mais l'eau et le lait non plus.\r\n");
          }
 		 
-        if (strstr($data,"Chuck Norris")) {
-             fputs($socket, "PRIVMSG ".$ex[2]." :Google, c'est le seul endroit où tu peux taper Chuck Norris.\r\n");
+        if (strstr($data,"cannibalisme")) {
+             fputs($socket, "PRIVMSG ".$ex[2]." :Il ne faut pas confondre cannabinophile et cannibalisme.\r\n");
          }
 		 
 		if (strstr($data,"Je pense que")) {
@@ -92,11 +92,11 @@ $acc="Avez vous déjà consommé du cannabis ?";
          }
 
 		 
-		 if (strstr($data,"pression")) {
+		if (strstr($data,"pression")) {
              fputs($socket, "PRIVMSG ".$ex[2]." :Two beer or not two beer? That is the pression.\r\n");
          } 
 		 
-		 if (strstr($data,"imbécile")) {
+		if (strstr($data,"imbécile")) {
              fputs($socket, "PRIVMSG ".$ex[2]." :Pourquoi les choses qui n'arrivent qu'aux imbéciles m'arrivent à moi aussi ?\r\n");
          } 	 
 	 
@@ -106,7 +106,7 @@ $acc="Avez vous déjà consommé du cannabis ?";
              La plupart des variétés landrace sont 100% Indica ou 100% Sativa, bien qu’il existe quelques exceptions. 
              La variété de Cannabis landrace porte souvent le nom de son pays ou de sa région d’origine. Exemples : Hindu Kush (Indica), Acapulco Gold (Sativa)...
              Les variétés de cannabis landrace sont la base des autres variétés de marijuana.
-             Les variétés pures ont l’avantage de proposer des palettes de goûts et d’effets très originaux car différents des variétés hybrides actuelles. \r\n");
+             Les variétés pures ont l’avantage de proposer des palettes de goûts et d’effets très originaux car différents des variétés hybrides actuelles.\r\n");
          } 	 
 	 
 		 
@@ -160,7 +160,7 @@ $acc="Avez vous déjà consommé du cannabis ?";
          }
          
        if (strstr($data,"plante")) {
-            fputs($socket, "PRIVMSG ".$ex[2]." :est un genre botanique qui rassemble des plantes annuelles de la famille des Cannabaceae ... \r\n");
+            fputs($socket, "PRIVMSG ".$ex[2]." :est un genre botanique qui rassemble des plantes annuelles de la famille des Cannabaceae ...\r\n");
          }
          
        if (strstr($data,"THC")) {
